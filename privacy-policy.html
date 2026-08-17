@@ -23,26 +23,33 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: March 30, 2026</p>
+    <p class="updated">Last updated: August 17, 2026</p>
 
     <p>Bukovki ("the App") is a children's educational app for learning to write Russian letters, developed by Daniil ("we", "us", or "our"). We take your family's privacy seriously — especially when it comes to children.</p>
 
-    <h2>No Data Collection</h2>
-    <p>The App does not collect, store, transmit, or share any personal information. This includes but is not limited to:</p>
+    <h2>No Personal Data Collection</h2>
+    <p>The App does not collect, store, transmit, or share personal information. This includes but is not limited to:</p>
     <ul>
         <li>Names, email addresses, or contact information</li>
         <li>Location data</li>
         <li>Photos, videos, or audio</li>
-        <li>Device identifiers or advertising IDs</li>
-        <li>Usage analytics or tracking data</li>
+        <li>Advertising identifiers (IDFA)</li>
+        <li>Drawing contents or anything the child writes or draws</li>
         <li>Cookies or similar technologies</li>
     </ul>
+
+    <h2>Anonymous Analytics</h2>
+    <p>Starting with version 4.0, the App collects anonymous product analytics through Firebase Analytics (Google). It serves exactly one purpose: to see which sections children use and where they get stuck, so we can fix those places.</p>
+    <p>Only <strong>enumerations and numbers</strong> are collected: which screen was opened, which category was chosen, how many letters were completed, how long a session lasted. No names, no user input, and no drawing contents are collected — nothing a child writes or draws ever leaves the device.</p>
+    <p>Along with these events, Firebase transmits installation-level technical identifiers: the <strong>IDFV</strong> (identifier for vendor, shared across one developer's apps on a device) and Firebase's own installation identifier. They are not tied to a person and are reset when the App is deleted.</p>
+    <p><strong>The advertising identifier (IDFA) is not collected.</strong> Advertising identifier collection and ad personalization are disabled in the App's configuration; the App contains no advertising frameworks and performs no tracking across apps or websites.</p>
+    <p>Google's data handling is described in the <a href="https://firebase.google.com/support/privacy">Firebase privacy policy</a>.</p>
 
     <h2>In-App Purchases</h2>
     <p>The App offers optional in-app purchases to unlock additional content (handwriting categories). All purchases are processed entirely by Apple through StoreKit. We do not collect, store, or have access to any payment information, credit card details, or Apple ID data. Purchase history and transaction management are handled solely by Apple in accordance with their <a href="https://www.apple.com/legal/privacy/">Privacy Policy</a>.</p>
 
     <h2>No Internet Connection Required</h2>
-    <p>The App works entirely offline, except when processing in-app purchases (which require a brief connection to Apple's servers). The App does not send any data to our servers or any third-party servers, and does not include any third-party SDKs, analytics tools, or advertising frameworks.</p>
+    <p>All learning works offline: letters, handwriting practice, and drawing require no network. A connection is needed in two cases — when processing in-app purchases (a brief connection to Apple's servers) and to send the anonymous analytics described above. We operate no servers of our own, so no data is sent to them. The App contains no advertising frameworks and performs no tracking.</p>
 
     <h2>Local Data Only</h2>
     <p>All user progress and preferences are stored locally on your device using standard iOS storage (UserDefaults). This data never leaves your device and is automatically deleted when the App is uninstalled.</p>
